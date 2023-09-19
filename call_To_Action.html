@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Features</title>
+        <link rel="icon" href="img/pokemonLogo.png">
+
+        <!-- Css Stylesheet -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="path/to/fontawesome/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <!--Bootstrap CDN CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+        <style>
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            .navbar-brand,
+            .nav-link,
+            body {
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            /* NAV BAR */
+            .container-fluid {
+                padding: 3% 14%;
+            }
+
+            /* TITLE  */
+            .title-h1 {
+                color: white;
+                font-size: 35px;
+            }
+
+            .pokemonGo-container {
+                padding-left: 10%;
+            }
+
+            .img-PokemonGo {
+                width: 600px;
+            }
+
+            /* Features */
+            .features-h3 {
+                line-height: 1.5;
+            }
+
+            /* Carousel */
+            .carousel-h2 {
+                font-size: 3rem;
+                line-height: 1.5;
+            }
+
+            /* Pricing */
+            .pricing-h2 {
+                line-height: 1.5;
+            }
+
+            /* Call To Action */
+            .cta-h3 {
+                font-size: 3.5rem;
+                line-height: 1.5;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <section class="colored-section" id="title">
+            <!-- CONTAINER WITH STYLE -->
+            <div class="container-fluid">
+                <!-- NAV BAR -->
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand mr-auto" href="">Pokemon Go</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#footer">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#pricing">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#cta">Download</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- TITLE -->
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="title-h1">Explore and catch all wonderful pokemons.</h1>
+                        <button type="button" class="btn btn-dark btn-lg download-buttons"><i
+                                class="fab fa-apple fa-lg"></i> Download</button>
+                        <button type="button" class="btn btn-outline-light btn-lg download-buttons"><i
+                                class="fab fa-google-play fa-lg"></i> Download</button>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-center align-items-center pokemonGo-container">
+                        <img class="img-PokemonGo" src="img/pokemonGo.png" alt="iphone image can't load.">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Features -->
+        <section class="white-section" id="features">
+            <div class="row">
+                <div class="feature-box col-lg-4">
+                    <i class="icon-feature fas fa-globe-americas fa-4x"></i>
+                    <h3 class="features-h3">Real-world Exploration.</h3>
+                    <p>Pokémon GO encourages players to explore their surroundings.</p>
+                </div>
+
+                <div class="feature-box col-lg-4">
+                    <i class="icon-feature fas fa-paw fa-4x"></i>
+                    <h3 class="features-h3">Collecting Pokémon.</h3>
+                    <p>The thrill of catching a wide variety of Pokémon.</p>
+                </div>
+
+                <div class="feature-box col-lg-4">
+                    <i class="icon-feature fas fa-fist-raised fa-4x"></i>
+                    <h3 class="features-h3">Strategic Battling.</h3>
+                    <p>Engaging in gym battles and PvP battles.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Testimonials -->
+        <section id="testimonials">
+
+            <!-- Carousel -->
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <h2 class="carousel-h2">It's a wonderful game and I've been playing for quite some time now.</h2>
+                        <img class="testimonial-image" src="img/Spinks.png" alt="image can't load">
+                        <em>Zyro, New York</em>
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="carousel-h2">Wowww! In my opinion, this has got to be the best game I played.</h2>
+                        <img class="testimonial-image" src="img/lisa.jpg" alt="image can't load">
+                        <em>Lisa, South Korea</em>
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="carousel-h2">Cool game, I use it to pass time and flex my shiny Pokemon.</h2>
+                        <img class="testimonial-image" src="img/gujo.jpg" alt="image can't load">
+                        <em>Jacob, Philippines</em>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+        </section>
+
+
+        <!-- Press -->
+        <section id="press">
+            <img class="press-image" src="img/nintendo.png" alt="image can't load">
+            <img class="press-image" src="img/creatures.png" alt="image can't load">
+        </section>
+
+        <!-- Pricing -->
+        <section class="white-section" id="pricing">
+            <h2 class="pricing-h2">Pokemon Eggs plans for wonderful Pokemons</h2>
+            <p>Simple and affordable price plans for your desire pokemons.</p>
+
+            <div class="row">
+                <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Normal</h3>
+                        </div>
+                        <div class="card-body">
+                            <img class="egg-normal" src="img/normal.png" alt="Image can't load">
+                            <h2>Free</h2>
+                            <p>Type: Normal</p>
+                            <p>Strength: Normal</p>
+                            <p>Level: 1</p>
+                            <button class="btn btn-lg btn-outline-primary w-100 free-purchase" type="button"
+                                value="free">Claim</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Rear</h3>
+                        </div>
+                        <div class="card-body">
+                            <img class="egg-rare" src="img/rare.png" alt="Image can't load">
+                            <h2>$50</h2>
+                            <p>Type: Fire/Water/Grass</p>
+                            <p>Strength: Moderate</p>
+                            <p>Level: 5</p>
+                            <button class="btn btn-lg btn-primary  w-100 rare-purchase" type="button"
+                                value="rare">Buy</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-4 col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Legendary</h3>
+                        </div>
+                        <div class="card-body">
+                            <img class="egg-legendary" src="img/legend.png" alt="Image can't load">
+                            <h2>$120</h2>
+                            <p>Type: Inherit Multiple Type</p>
+                            <p>Strength: Strong</p>
+                            <p>Level: 10</p>
+                            <button class="btn btn-lg btn-primary w-100 legend-purchase" type="button"
+                                value="legend">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Call To Action -->
+        <section class="colored-section" id="cta">
+            <h3 class="cta-h3">Go catch 'em all and let your Pokemon journey begin!</h3>
+            <button type="button" class="btn btn-dark btn-lg download-buttons"><i class="fab fa-apple fa-lg"></i>
+                Download</button>
+            <button type="button" class="btn btn-light btn-lg download-buttons"><i class="fab fa-google-play fa-lg"></i>
+                Download</button>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="white-section" id="footer">
+            <i class="social-icon fab fa-facebook fa-lg"></i>
+            <i class="social-icon fab fa-twitter fa-lg"></i>
+            <i class="social-icon fab fa-instagram fa-lg"></i>
+            <i class="social-icon fas fa-envelope fa-lg"></i>
+            <p>&copy; Copyright 2018 Pokemongo</p>
+        </footer>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Pokemon Go</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Do you want to buy it?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary claim">Purchase</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Checkout Modal -->
+        <div class="modal fade" id="payment-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Checkout</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="image-container text-center">
+                            <img class="gcash" src="img/gcash.png" alt="Image can't load">
+                        </div>
+                        <form id="paymentForm">
+
+                            <div class="form-group">
+                                <label for="gcash-name">Gcash Name</label>
+                                <input type="text" class="form-control dark-theme" id="gcash-name" required maxlength="50">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="gcash-number">Gcash Number</label>
+                                <input type="text" class="form-control dark-theme" id="gcash-number" required maxlength="11">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="gcash-amount">Amount</label>
+                                <input type="text" class="form-control dark-theme" id="gcash-amount" required>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary claim">Pay</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Bootstrap CDN Javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+            integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+            crossorigin="anonymous"></script>
+
+        <!-- Javascript link tag -->
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,224 @@
+#title{
+    background-color: #ff4c68;
+}
+
+p{
+    color:gray;
+}
+
+.colored-section{
+    background-color: #ff4c68;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* NAVBAR */
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+
+/*DOWNLOAD BUTTONS (top, right, left, bottom)*/
+.download-buttons{
+    margin: 5% 3% 5% 0%;
+}
+
+/*>> FEATURE SECTION <<*/
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon-feature{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon-feature:hover{
+    color: #ff4c68;
+}
+
+
+/*>> TESTIMONIALS SECTION <<*/
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color:white;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/*>> PRESS SECTION <<*/
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-image{
+    width: 25%;
+    margin: 0 20px;
+}
+
+
+/*>> CAROUSEL SECTION <<*/
+.carousel-item{
+    padding: 7% 15%;
+    height:500px;
+}
+
+
+/*>> PRICING SECTION <<*/
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding:3% 2%;
+}
+
+.egg-normal{
+    height: 256px;
+    width: 190px;
+    padding:3% 0%;
+}
+
+.egg-rare{
+    height: 256px;
+    width: 256px;
+}
+
+
+/*>> MEDIA QUERY SECTION <<*/
+@media (max-width: 1023px) {
+    .col-lg-6 {
+        text-align: center;
+    }
+
+    .title-pokemongo {
+        text-align: center;
+    }
+
+    .download-buttons {
+        margin:3% 0%;
+    }
+}
+
+
+/*>> CTA SECTION <<*/
+#cta{
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+/*>> FOOTER SECTION <<*/
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+   
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+
+/* MODAL */
+#staticBackdrop{
+    font-family: Arial, sans-serif;
+    font-weight:400;
+}
+
+
+
+/* PAYMENT MODAL */
+/* #payment-modal{
+    width: 100%;
+} */
+.card {
+    background-color: #343a40;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.card-header.dark-theme {
+    background-color: #212529;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.gcash {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-control.dark-theme {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #6c757d;
+    border-radius: 4px;
+    background-color: #fff;
+    color: black;
+}
+
+.btn {
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+
+
+  
